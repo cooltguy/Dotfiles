@@ -1,3 +1,4 @@
+"  QoL changes
 set nocompatible
 syntax on
 filetype on
@@ -10,7 +11,6 @@ set wildmenu
 set wildmode=list:longest
 set hlsearch
 set incsearch
-set background=dark
 set autoindent
 set tabstop=4
 set softtabstop=4
@@ -24,8 +24,9 @@ set noswapfile
 set noundofile
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[02 q"
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
 
+"  All of my plugins with vim-plug. Remove whatever you don't like. I let my terminal decide what the theme is, so I don't use a specific vim theme myself.
 
 call plug#begin('~/vimfiles/plugged')
 Plug 'vim-airline/vim-airline'
