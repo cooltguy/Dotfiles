@@ -1,0 +1,9 @@
+[font]
+size = 14.0
+normal = { family = "Inconsolata", style = "Regular" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+bold_italic = { style = "Bold Italic" }
+
+[window]
+opacity = 0.5
