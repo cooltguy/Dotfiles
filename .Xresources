@@ -1,0 +1,15 @@
+Xterm.termName: xterm-256color
+
+Xterm.vt100.metaSendsEscape: true
+
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+xterm*foreground: rgb:ff/ff/ff
+xterm*background: rgb:00/00/00
+xterm*renderFont: true
+xterm*faceName: monospace
+xterm*faceSize: 20
+
+XTerm*cursorBlink: true
+XTerm*selectToClipboard: true
